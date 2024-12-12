@@ -64,10 +64,15 @@ body {
         li {
           display: flex;
           align-items: flex-start;
-          width: calc(50% - 30px);
+          width: calc(50% - 20px);
           padding: 10px;
           @media screen and (max-width: 768px) {
             width: 100%;
+          }
+          div {
+            @media screen and (max-width: 768px) {
+              width: 80%;
+            }
           }
           a {
             color: #6df2fc;
@@ -75,6 +80,9 @@ body {
           img {
             margin-right: 10px;
             width: calc(100% - 20px);
+            @media screen and (max-width: 768px) {
+              width: 20%;
+            }
           }
         }
       }
